@@ -17,7 +17,7 @@ NumPy만을 사용하여 Deep Neural Network(DNN)를 처음부터 직접 구현�
 - **손실 함수** : Binary Cross-Entropy
 - **최적화 방법** : Gradient Descent
 - **초기화 방법** : He initialization
-- **데이터셋** : Forest Cover Type Dataset (이진 분류)
+- **데이터셋** : Forest Cover Type Dataset (이진 분류) -> 라벨 1, 2만 분리하여 0, 1을 새롭게 부여한 뒤 진행하였음
 - **입력 데이터 크기** : (54, 495,141)
 - **학습 방식** : CPU 환경에서 full-batch gradient descent
 
@@ -99,3 +99,4 @@ numpy_dnn_from_scratch/
 └── requirements.txt
 
 ```
+
