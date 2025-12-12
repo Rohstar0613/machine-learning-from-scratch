@@ -9,7 +9,7 @@ def main():
 
     best_parameters, best_cost, costs, A_L_best, Y = train(layer_dims, activation, learning_rate, num_iters)
 
-    save_parameters(best_parameters, filename="data/best_params.npz")
+    save_parameters(best_parameters, filename="best_params.npz")
 
     print_bestcost(best_cost)
 
@@ -21,3 +21,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
