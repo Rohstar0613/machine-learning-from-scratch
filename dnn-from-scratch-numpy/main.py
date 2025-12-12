@@ -2,10 +2,10 @@ from src.train import train
 from src.utils import *
 
 def main():
-    layer_dims = [54, 10, 3, 1]
-    activation = ["relu","relu",  "sigmoid"]
+    layer_dims = [54, 32, 16, 1]
+    activation = ["relu", "relu",  "sigmoid"]
     learning_rate = 0.1
-    num_iters = 1000
+    num_iters = 10000
 
     best_parameters, best_cost, costs, A_L_best, Y = train(layer_dims, activation, learning_rate, num_iters)
 
@@ -19,4 +19,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
