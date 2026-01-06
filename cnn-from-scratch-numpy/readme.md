@@ -82,7 +82,7 @@ loss가 반복 학습을 통해 점진적으로 감소하는 모습을 통해,
 gradient가 올바르게 계산되어 가중치 업데이트가 이루어지고 있음을
 직관적으로 확인할 수 있었습니다.
 
-![Training Loss Curve](plot/Learning_curve.png)
+![Training Loss Curve](plot/Learning-curve.png)
 
 ## 5. Project Structure
 
