@@ -32,7 +32,7 @@ layers = [
     ("fc", {"out_dim": 10})
 ]
 
-num_iters = 10
+num_iters = 100
 lr = 0.001
 
 # 데이터 로드
@@ -52,3 +52,4 @@ plot_cost_curve(costs)
 
 # 예측 결과 및 혼동행렬 출력
 evaluate_classification_model(Z_best, y)
+
