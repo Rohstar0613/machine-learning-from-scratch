@@ -38,9 +38,6 @@ lr = 0.001
 # 데이터 로드
 X, y = mnist_loader()
 
-X = X[:5]
-y = y[:5]
-
 # 모델 학습
 best_parameters, costs = train(X, y, num_iters, lr, layers)
 
@@ -52,4 +49,5 @@ plot_cost_curve(costs)
 
 # 예측 결과 및 혼동행렬 출력
 evaluate_classification_model(Z_best, y)
+
 
